@@ -8,5 +8,7 @@ start = time.time()
 
 while True:
     elaptime= (time.time - start)
-    while 0 = (0, 0)
+    while x=0 = (0, 0)
+    while x=1 = (2, 500)
+    
     
