@@ -13,5 +13,7 @@ while True:
     elaptime= (time.time - start) / x
         while x=0 = (0, 0)
         while x=1 = (2, 500)
+        
+ 
     
     
