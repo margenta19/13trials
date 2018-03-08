@@ -20,3 +20,4 @@ while True:
      import setup
      RPL.servoWrite(2,0)
      RPL.servoWrite(1,0)
+    
