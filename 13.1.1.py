@@ -10,13 +10,13 @@ while True:
   PTW.post()
 
   if RPL.digitalRead(sensor_pin) == 1:
-      import RoboPiLib as RPL
-      import setup
-      RPL.servoWrite(2, 500)
-      RPL.servoWrite(1, 2000)
+     import RoboPiLib as RPL
+     import setup
+     RPL.servoWrite(2, 500)
+     RPL.servoWrite(1, 2000)
     
   if RPL.digitalRead(sensor_pin) == 0:
-      import RoboPiLib as RPL
-      import setup
-      RPL.servoWrite(2, 0)
-      RPL.servoWrite(1,0)
+     import RoboPiLib as RPL
+     import setup
+     RPL.servoWrite(2, 0)
+     RPL.servoWrite(1,0)
