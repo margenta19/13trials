@@ -11,5 +11,9 @@ x = 4
 
 while True:
     elaptime= (time.time - start) / x
-    while x==0 == (0, 0):
-        while x==1 == (2, 500)
+    if x==0:
+        RPL.servoWrite(1,0)
+        RPL.servoWrite(2,0)
+    if x==1:
+        RPL.servoWrite(1,500)
+        RPL.servoWrite(2,2000)
