@@ -21,7 +21,7 @@ while True:
      RPL.servoWrite(1,500)
      RPL.servoWrite(2,2000)
 
-while True:
+while False:
   PTW.state['d1'] = RPL.digitalRead(sensor_pin)
   PTW.post()
 
