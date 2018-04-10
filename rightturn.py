@@ -7,17 +7,17 @@ import RoboPiLib as RPL
 #subtracted by the start time.time is divided- how many leftovers there are when that equals 0 the robot would stop
 start = time.time()
 
-x = 3
+x = 2
 
 while True:
     elaptime = (time.time() - start)
     x = 0
     elaptime = int(elaptime)
-    if elaptime % 3 == 0:
+    if elaptime % 2 == 0:
         RPL.servoWrite(1,0)
         RPL.servoWrite(2,0)
-        x = x + 6
-    if elaptime % 6 == 0:
+        x = x + 4
+    if elaptime % 4 == 0:
         RPL.servoWrite(2,1000)
         RPL.servoWrite(1,250)
-        x = x + 3
+        x = x + 2
