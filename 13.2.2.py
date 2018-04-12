@@ -38,9 +38,4 @@ while True:
           RPL.servoWrite(2,1000)
           RPL.servoWrite(1,250)
           x = x + 1
-     while False:
-       if RPL.digitalRead(sensor_pin) == 1:
-         import RoboPiLib as RPL
-         import setup
-         RPL.servoWrite(1,500)
-         RPL.servoWrite(2,2000)
+   
