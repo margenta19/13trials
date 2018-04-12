@@ -28,7 +28,7 @@ while True:
 
      while True:
        elaptime = (time.time() - start)
-       x = 1
+       x = 0
        elaptime = int(elaptime)
        if elaptime % 1 == 0:
           RPL.servoWrite(1,0)
@@ -36,7 +36,7 @@ while True:
           x = x + 2
        if elaptime % 2 == 0:
           RPL.servoWrite(2,1000)
-          RPL.servoWrite(1,500)
+          RPL.servoWrite(1,250)
           x = x + 1
    
 sensor_pin = 16
