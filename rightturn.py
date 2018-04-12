@@ -9,7 +9,6 @@ start = time.time()
 
 x = 1
 
-while True:
     elaptime = (time.time() - start)
     x = 0
     elaptime = int(elaptime)
