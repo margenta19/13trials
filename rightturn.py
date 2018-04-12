@@ -9,6 +9,7 @@ start = time.time()
 
 x = 1
 
+While True:
     elaptime = (time.time() - start)
     x = 0
     elaptime = int(elaptime)
@@ -20,3 +21,5 @@ x = 1
         RPL.servoWrite(2,1000)
         RPL.servoWrite(1,250)
         x = x + 1
+
+   
