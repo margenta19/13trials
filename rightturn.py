@@ -24,8 +24,8 @@ while True:
        
 x = 0
    
-for number in range(10):
+for number in range(1):
     number = number + 1
-    if number == 5:
+    if number == 1:
       break    # break here
    
