@@ -9,7 +9,7 @@ start = time.time()
 
 x = 1
 
-While True:
+while True:
     elaptime = (time.time() - start)
     x = 0
     elaptime = int(elaptime)
@@ -21,5 +21,12 @@ While True:
         RPL.servoWrite(2,1000)
         RPL.servoWrite(1,250)
         x = x + 1
+        
+    x = 0
 
+        for number in range(10):
+        number = number + 1
+
+   if number == 5:
+      break    # break here
    
