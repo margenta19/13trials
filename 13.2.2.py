@@ -46,6 +46,6 @@ while True:
   PTW.state['d1'] = RPL.digitalRead(sensor_pin)
   PTW.post()
 
-  if number == 5:
+  if number == 4:
       break    # break here
 
