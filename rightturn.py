@@ -21,11 +21,8 @@ while True:
         RPL.servoWrite(2,1000)
         RPL.servoWrite(1,250)
         x = x + 1
-       
-x = 0
-   
-for number in range(1):
-    number = number + 1
-    if number == 1:
-      break    # break here
+    for number in range(1):
+        number = number + 1
+        if number == 1:
+            break    # break here
    
