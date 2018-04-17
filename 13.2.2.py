@@ -43,9 +43,6 @@ sensor_pin = 16
 RPL.pinMode(sensor_pin, RPL.INPUT)
 
 while True:
-  PTW.state['d1'] = RPL.digitalRead(sensor_pin)
-  PTW.post()
-
   if RPL.digitalRead(sensor_pin) == 1:
       break    # break here
 
