@@ -10,10 +10,7 @@ while True:
   PTW.state['d1'] = RPL.digitalRead(sensor_pin)
   PTW.post()
   
-  
 if RPL.digitalRead(sensor_pin) == 1:
-  import RoboPiLib as RPL
-  import setup
   import time
   x = 1
   elaptime = (time.time() - start)
