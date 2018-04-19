@@ -16,9 +16,9 @@ while True:
     if elaptime % 1 == 0:
         RPL.servoWrite(1,0)
         RPL.servoWrite(2,0)
-        x = x - 10
+        x = x + 2
     if elaptime % 2 == 0:
         RPL.servoWrite(2,1000)
         RPL.servoWrite(1,250)
-        x = x - 5
+        x = x + 1
 
