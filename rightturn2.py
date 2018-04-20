@@ -16,8 +16,7 @@ while True:
      RPL.servoWrite(2,2000)
     
   if RPL.digitalRead(sensor_pin) == 0:
-     import setup
-     from setup import RPL
-     import post_to_web as PTW # see post_to_web.py for instructions
-     import time
      import RoboPiLib as RPL
+     import setup
+    RPL.servowrite(1,2000)
+    RPL.servowrite(2,500)
