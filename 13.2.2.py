@@ -38,11 +38,3 @@ while True:
           RPL.servoWrite(2,1000)
           RPL.servoWrite(1,250)
           x = x + 1
-   
-sensor_pin = 16
-RPL.pinMode(sensor_pin, RPL.INPUT)
-
-while True:
-  if RPL.digitalRead(sensor_pin) == 1:
-      break    # break here
-
