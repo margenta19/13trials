@@ -37,3 +37,4 @@ while True:
         RPL.servoWrite(2,1000)
         RPL.servoWrite(1,250)
         x = x + 1
+import stop
