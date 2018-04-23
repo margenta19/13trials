@@ -9,14 +9,10 @@ start = time.time()
 x = 1
 
 while True:
-    elaptime = (time.time() - start)
     x = 0
     elaptime = int(elaptime)
     if elaptime % 6 == 0:
         RPL.servoWrite(1,0)
         RPL.servoWrite(2,0)
         x = x + 12
-    if elaptime % 12 == 0:
-        RPL.servoWrite(1,100)
-        RPL.servoWrite(2,2000)
-        x = x + 6
+
