@@ -10,9 +10,7 @@ x = 1
 
 while True:
     x = 0
-    elaptime = int(elaptime)
-    if elaptime % 6 == 0:
-        RPL.servoWrite(1,0)
-        RPL.servoWrite(2,0)
-        x = x + 12
+    RPL.servoWrite(1,0)
+    RPL.servoWrite(2,0)
+    x = x + 12
 
