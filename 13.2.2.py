@@ -26,10 +26,9 @@ while True:
 
      x = 1
 
-     while True:
-       elaptime = (time.time() - start)
-       x = 0
-       elaptime = int(elaptime)
+     elaptime = (time.time() - start)
+     x = 0
+     elaptime = int(elaptime)
        if elaptime % 1 == 0:
           RPL.servoWrite(1,0)
           RPL.servoWrite(2,0)
