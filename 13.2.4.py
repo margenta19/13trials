@@ -28,16 +28,16 @@ while True:
       start = time.time()
       
       
-       while True:
-        elapsed = time.time() - start
-        y = 1
+      while True:
+       elapsed = time.time() - start
+       y = 1
         
-        if int(elapsed) != 0:
-          y = 2
-          while int(elapsed) % 2 == 0:
-            RPL.servoWrite(2,250)
-            RPL.servoWrite(1,100)
-            quit()
+       if int(elapsed) != 0:
+         y = 2
+         while int(elapsed) % 2 == 0:
+           RPL.servoWrite(2,250)
+           RPL.servoWrite(1,100)
+           quit()
 
       
       
