@@ -35,6 +35,6 @@ while True:
         if int(elapsed) != 0:
           y = 2
           while int(elapsed) % 2 == 0:
-            RPL.servoWrite(0,0)
+            RPL.servoWrite(2,0)
             RPL.servoWrite(1,0)
             quit()
