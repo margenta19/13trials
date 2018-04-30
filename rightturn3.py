@@ -13,8 +13,8 @@ if RPL.digitalRead(sensor_pin) == 0:
      x = 0
 
      while True:
-     elapsed = time.time() - start
-     y = 1
+          elapsed = time.time() - start
+          y = 1
         
      if int(elapsed) != 0:
        y = 2
@@ -23,8 +23,8 @@ if RPL.digitalRead(sensor_pin) == 0:
          RPL.servoWrite(1,500)
           
      while True:
-        elapsed = time.time() - start
-        y = 2
+          elapsed = time.time() - start
+          y = 2
         
         if int(elapsed) != 0:
           y = 4
