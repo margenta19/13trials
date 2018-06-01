@@ -34,7 +34,7 @@ while True:
         RPL.servoWrite(2,0)
         x = x + 2
      if elaptime % 2 == 0:
-        RPL.servoWrite(2,1000)
-        RPL.servoWrite(1,250)
+        RPL.servoWrite(2,250)
+        RPL.servoWrite(1,1000)
         x = x + 1
 import stop.py
