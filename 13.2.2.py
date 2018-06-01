@@ -27,7 +27,7 @@ while True:
      x = 1
 
      elaptime = (time.time() - start)
-     x = 4
+     x = 0
      elaptime = int(elaptime)
      if elaptime % 1 == 0:
         RPL.servoWrite(1,0)
