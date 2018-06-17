@@ -1,4 +1,3 @@
-
 import setup
 from setup import RPL
 import post_to_web as PTW # see post_to_web.py for instructions
@@ -39,4 +38,3 @@ while True:
             RPL.servoWrite(0,0)
             RPL.servoWrite(1,0)
             quit()
-              
